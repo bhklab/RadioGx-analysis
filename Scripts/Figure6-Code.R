@@ -6,7 +6,6 @@
 ##########################################################
 
 library(xlsx)
-library(genefu)
 library(piano)
 library(gplots)
 library(RColorBrewer)
