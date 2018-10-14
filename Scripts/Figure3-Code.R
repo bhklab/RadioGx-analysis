@@ -8,7 +8,6 @@
 
 library(xlsx)
 library(gdata)
-library(genefu)
 library(piano)
 library(RColorBrewer)
 library(tidyverse)
