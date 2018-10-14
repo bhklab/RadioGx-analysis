@@ -6,7 +6,8 @@
 
 # Pathway analysis for alpha/beta ratio in oxic conditions
 
-require(piano)
+library(piano)
+library(VennDiagram)
 
 setwd("~/RadioGxAnalysis/")
 
@@ -89,8 +90,6 @@ save(gsares,file="GSEAResult-Alpha.RData")
 # Find common pathways between AUC, alpha, beta, alpha/beta
 #
 ################################################################
-
-library(VennDiagram)
 
 load('GSEAResult-Alpha.RData')
 gsasummary <- GSAsummaryTable(gsares)
