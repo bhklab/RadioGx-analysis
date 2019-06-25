@@ -1,6 +1,6 @@
 ##########################################################
 #
-# Figure 7: RT and Chemo genetic dependencies using PCL
+# Figure 8: RT and Chemo genetic dependencies using PCL
 #
 ##########################################################
 
