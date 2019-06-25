@@ -15,7 +15,7 @@ library(piano)
 setwd("~/RadioGxAnalysis/")
 
 ##### Mathematical modelling of hypoxia
-# Fig5A
+# Fig6A
 
 OER_m = 3
 K_m = 3
@@ -45,7 +45,7 @@ RadioGx:::doseResponseCurve(Ds=list("Normoxia (21%=160mmHG)" = D,"Hypoxia (1.3%=
                             cex = 1.55,cex.main = 1.75,lwd = 2)
 dev.off()
 
-# Fig 5B
+# Fig 6B
 # load the LQ model values for good curves
 load('DoseResponse.RData')
 load('ClevelandLQFitVal-GoodCurves.RData')
@@ -170,7 +170,7 @@ dev.off()
 
 ##################################################################################
 
-# Figure 5C
+# Figure 6C
 
 load('Oxic_Hypoxia5LQres.RData')
 load('CCLERNAseq.RData')
